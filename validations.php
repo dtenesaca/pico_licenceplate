@@ -41,9 +41,9 @@
 			if($day_number>5)$result="Cars are allowed to road on weekends all the day.";
 			else if((!testDay($day_number, substr($license_plate, -1)))&&(!testRangetime($time)))
 			{
-				$result="Te car isn't allowed to road on that date and time";
+				$result="The car isn't allowed to road on that date and time.";
 			}
-			else $result="Te car is allowed to road on that date and time";
+			else $result="The car is allowed to road on that date and time.";
 
 				//if(testRangetime($time))$result="Cars are allowed to road on weekends all the day.".testRangetime($time);
 		}
